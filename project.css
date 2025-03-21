@@ -1,0 +1,151 @@
+body{
+    background-color:white;
+    
+}
+
+img{
+    display: inline-block;
+    margin-top: 160px;
+    width: 18%;
+    height: auto;
+    display: block;
+    margin-bottom: 0 auto; 
+    margin-left:auto;
+    margin-right: auto;
+    object-fit: contain;
+}
+
+#search {
+    border-radius:10px;
+    border:none;
+    background-color: white;
+    margin-top:-120px;
+    margin-left:0;
+    height:40px;
+    width:550px;
+    box-shadow: 2px 2px 2px 2px rgb(191, 190, 190);
+}
+
+.navbar-nav{
+    margin-left:1200px;
+    justify-content: flex-start;
+}
+
+.navbar {
+    background-color:white !important;
+}
+
+.navbar .nav-link {
+    color: black;
+}
+
+.search-container {
+    position: relative;
+    margin-top: 50px;    
+}
+
+.search-container input{
+    padding-left: 10px;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center; /* Butonları ortalar */
+    align-items: center; /* Yatayda ve dikeyde ortalar */
+    gap: 10px; /* Butonlar arasına boşluk ekler */
+    flex-direction: column;
+}
+
+#search {
+    width: 100%;
+    max-width: 550px; 
+    margin-bottom: 10px; /* Arama kutusu ile butonlar arasına boşluk ekler */
+    
+}
+
+#searchButton,#luckyButton{
+    border: 1px solid rgba(0,0,0,0.2);
+    padding:1px 1px;
+    border-radius: 5px;
+}
+
+#button {
+    background-color: #f8f8f8;
+    border: 1px solid #dcdcdc;
+    margin-left: 50px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #f1f1f1;
+}
+
+button:focus {
+    outline: none;
+}
+
+.Turkey-navbar{
+    background-color: #f8f8f8;
+    border-top: 1px solid #ccc;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding:10px 10px 0 0;
+    display:flex;
+}
+
+.Turkey-navbar ul{
+    list-style-type: none;
+    margin-bottom: 54px;
+    display: flex;
+}
+
+.Turkey-navbar ul li {
+    margin: 0 -10px;
+}
+
+.Turkey-navbar ul li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 17px;
+}
+
+.Turkey-navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-navbar {
+    background-color: #f8f8f8;
+    border-top: 1px solid #ccc;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:flex; /*yatayda sıralama için*/
+    justify-content: center; /*Orta hizalama*/
+}
+
+.footer-navbar ul li {
+    margin: 0 15px;
+}
+
+.footer-navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.footer-navbar ul li a:hover {
+    text-decoration: underline;
+}
